@@ -6,7 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import * as echarts from 'echarts'
+import { useAppStore } from '@/store'
+</script>
 import { onMounted, onBeforeUnmount, ref } from 'vue'
 
 const chartRef = ref<HTMLDivElement | null>(null)

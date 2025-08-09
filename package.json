@@ -8,20 +8,17 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
- "dependencies": {
-  "vue": "^3.4.0",
-  "vue-router": "^4.3.0",
-  "pinia": "^2.1.7",
-  "echarts": "^5.5.0",
-  "dayjs": "^1.11.11"
-},
-"devDependencies": {
-  "vite": "^7.1.0",
-  "@vitejs/plugin-vue": "^5.0.0",
-  "typescript": "^5.x"
-}
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview --port 5174"
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0",
+    "pinia": "^2.1.7",
+    "echarts": "^5.5.0",
+    "dayjs": "^1.11.11"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vue-tsc": "^2.0.0"
+  }
 }
